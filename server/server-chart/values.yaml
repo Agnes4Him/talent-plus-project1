@@ -1,6 +1,7 @@
 appName: server
 appReplicas: 1
 appImage: serverimage
+appVersion: latest
 containerPort: 7000
 
 servicePort: 7000
