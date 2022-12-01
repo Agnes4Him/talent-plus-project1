@@ -1,7 +1,6 @@
 appName: server
 appReplicas: 1
-appImage: serverimage
-appVersion: latest
+appImage: agnes4im/tpserver
 containerPort: 7000
 
 servicePort: 7000
