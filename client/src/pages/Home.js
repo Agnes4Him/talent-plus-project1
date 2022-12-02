@@ -6,7 +6,7 @@ const Home = () => {
     const [error, setError] = useState("")
 
     useEffect(() => {
-        fetch("http://localhost:7000")
+        fetch("/backend")
         .then((response) => {
             return response.json()
         })
